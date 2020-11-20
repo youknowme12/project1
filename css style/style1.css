@@ -1,0 +1,42 @@
+body {
+	 height: 200px;
+	 background-size: cover;
+}
+
+.first {
+	padding: 50px; 
+	text-align: center;
+	font-size: 50px;
+	color: #FFF8DC;
+	text-shadow: 2px 2px #008B8B;
+}
+
+table.a {
+  table-layout: auto;
+  height: 100%;
+  width: 100%; 
+  border-collapse: collapse;
+  text-align: center;
+
+}
+
+table,th,td {
+    border: 2px solid black;
+}
+
+td {
+	font-size: 25px;
+}
+
+thead {
+        background-color: #2F4F4F;
+        color: #ffffff;
+        font-size: 30px;
+      }
+
+tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background: #f4f4f4;
+}
